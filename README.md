@@ -9,7 +9,7 @@ In recent years, sketch-based 3D shape retrieval has attracted growing attention
 ![Figure2](https://github.com/cyy1998/UACTN/assets/37933688/f022167e-94d7-4df4-a5c4-e978eb58f442)
 The overall architecture of the proposed uncertainty-aware cross-modal transfer network (UACTN) for SBSR is illustrated. We decouple the task of cross-modal matching between sketches and 3D shapes into two separate learning tasks: (1) sketch data uncertainty learning, which aims to obtain a noise-robust sketch feature extraction model by introducing sketch uncertainty information into the training of a classification model; and (2) 3D shape feature transfer, where 3D shape features are mapped into the sketch embedding space under the guidance of sketch class centers. Finally, a cross-domain discriminative embedding space (i.e., sketches and 3D shapes belonging to the same class are close, while those of different classes are apart) is learned. The two tasks are discussed in detail in the following subsections.
 
-## code
+## Code
 A workable basic version of the code for CLIP adapted for ZS-SBIR has been uploaded.
 - ```train_sketch.py``` python script to train the sketch model.
 - ```train_view.py``` python script to train the view model.
