@@ -10,7 +10,7 @@ In recent years, sketch-based 3D shape retrieval has attracted growing attention
 This paper proposes a cross-modal feature transfer method via teacher-student learning (CFTTSL) for sketch-based 3D shape retrieval, which uses the classification results of 3D shapes to guide the feature learning of sketches. Fig.~\ref{fig:pipeline} shows the network architecture. The framework consists of three parts: the teacher network, the student network and the pre-learned feature space of 3D shapes. The teacher network is the classification network of 3D shapes. The student network is the feature transfer network of sketches. Finally, the pre-learned feature space is the outputs of the teacher network based on the training data of 3D shapes. The training of the framework contains two stages, and the testing (retrieval) process is one-stage.
 
 ## Code
-A workable basic version of the code for CLIP adapted for ZS-SBIR has been uploaded.
+A workable basic version of the code has been uploaded.
 - ```train_sketch.py``` python script to train the sketch model.
 - ```train_view.py``` python script to train the view model.
 - ```retrieval_evaluation.py``` python script to run the experiment.
